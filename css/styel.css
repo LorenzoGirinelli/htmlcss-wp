@@ -15,7 +15,9 @@ body{
     margin: auto;
     padding: 0px 100px;
 }
+
 /* HEADER */
+
 .logo{
     display: inline-block;
     border-right: 1px solid lightgrey;
@@ -56,7 +58,9 @@ body{
     height: 100%;
     object-fit: cover;
 }
+
 /* MENU */
+
 nav{
     margin: 20px 0px;
 }
@@ -74,7 +78,9 @@ nav{
     text-transform: uppercase;
 
 }
+
 /* MAIN*/
+
 .claerfix::after{
     content: "";
     display: table;
@@ -90,14 +96,40 @@ nav{
 .col{
     float: left;
     position: relative;
-    top: 80px;
 }
-.links, .widgets{
+aside{
     width: 23%;
-    height: 270px;
-    background-color: #abcfe7;
 }
-.container2{
+.widgets{
+    position: relative;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.widgets-text{
+    font-size: 14px;
+}
+.links{
+    position: relative;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.links-text{
+    font-size: 14px;
+}
+.capitolo{
+    position: relative;
+}
+.secondo-container{
     background-color: #0186fd;
     width: 100%;
     height: 370px;
@@ -106,7 +138,22 @@ nav{
     width: 100%;
     height: 60px;
     background-color: #abcfe7;
+    position: relative;
+    margin-bottom: 15px;
 }
+.title-cap{
+    font-size: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+.subtitle{
+    position: relative;
+    top: 40px;
+}
+
+/* FOOTER */
+
 footer{
     background-color: #8801fe;
     height: 70px;
