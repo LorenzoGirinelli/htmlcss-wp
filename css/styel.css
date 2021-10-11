@@ -25,11 +25,36 @@ body{
     height: 65px;
     width: auto;
 }
-.header-bottom{
-    background-color: #e1d67a;
-    height: 280px;
+.banner{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.banner-text {
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    width: 50%;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.banner img{
+    height: 100%;
+    object-fit: cover;
 }
 /* MENU */
 nav{
